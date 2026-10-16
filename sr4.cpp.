@@ -9,5 +9,10 @@ int main() {
     cin >> x;
     y = ((4*x*x - 2)*(x + 2)) + (x * sin(x)) / (2*x + 1);
     cout << y;
+    return 0;
+    cout << "Введіть значення x: ";
+    cin >> x;
+    y = ((4*x*x - 2)*(x + 2)) + (x * sin(x)) / (2*x + 1);
+    cout << y;
     return 0
 }
